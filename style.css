@@ -1,0 +1,33 @@
+body{
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    height: 500px;
+    width: 410px;
+    flex-direction: column;
+}
+
+.display{
+    height: 100px;
+    width: 390px;
+    border: 1px solid black;
+}
+
+.function{
+    display: flex;
+    flex-direction: column;
+    width: 410px;
+}
+
+button{
+    flex: 1 0 auto;
+    height: 100px;
+    width: 95px;
+    padding: 0;
+    margin: 0;
+
+}
+
